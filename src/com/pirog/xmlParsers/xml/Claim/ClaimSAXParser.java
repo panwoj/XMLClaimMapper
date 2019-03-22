@@ -15,7 +15,6 @@ public class ClaimSAXParser {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser parser = factory.newSAXParser();
         SAXClaimHandler handler = new SAXClaimHandler();
-
         parser.parse(ClassLoader.getSystemResourceAsStream("com/pirog/xmlParsers/xml/Claim/xml/ClaimWithTwoReporters.xml"), handler);
         Claim claim = handler.getClaim();
 
