@@ -16,8 +16,8 @@ public class ClaimDOMParser {
 
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-        Document documentWithTwoReporters = documentBuilder.parse(ClassLoader.getSystemResourceAsStream("com/pirog/xmlParsers/xml/Claim/ClaimWithTwoReporters.xml"));
-        Document documentWithoutReporters = documentBuilder.parse(ClassLoader.getSystemResourceAsStream("com/pirog/xmlParsers/xml/Claim/ClaimWithoutReporters.xml"));
+        Document documentWithTwoReporters = documentBuilder.parse(ClassLoader.getSystemResourceAsStream("com/pirog/xmlParsers/xml/Claim/xml/ClaimWithTwoReporters.xml"));
+        Document documentWithoutReporters = documentBuilder.parse(ClassLoader.getSystemResourceAsStream("com/pirog/xmlParsers/xml/Claim/xml/ClaimWithoutReporters.xml"));
 
         Claim claimWithReporters = ClaimDomMapper.mappClaimFromXMLDocument(documentWithTwoReporters);
         Claim claimWithoutReporters = ClaimDomMapper.mappClaimFromXMLDocument(documentWithoutReporters);

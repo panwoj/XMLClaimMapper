@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.pirog.com/claims" xmlns:tns="http://www.pirog.com/claims"
 xmlns:com="http://www.example.org/common" elementFormDefault="qualified">
-    <import schemaLocation="../Common.xsd" namespace="http://www.example.org/common"/>
+    <import schemaLocation="../../Common.xsd" namespace="http://www.example.org/common"/>
     <element name="Claim" type="tns:Claim"/>
 
     <complexType name="Claim">
