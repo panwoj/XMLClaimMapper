@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Claim xmlns="http://www.pirog.com/claims" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.pirog.com/claims Claim.xsd" id="1234">
+    <LossInfo>
+        <LossDate>2002-03-15T09:00:00</LossDate>
+        <Incident>Car accident</Incident>
+        <Severity>Serious</Severity>
+    </LossInfo>
+    <PolicyNumber>12345-XS</PolicyNumber>
+    <Reporter>
+        <Name>John</Name>
+        <LastName>Big</LastName>
+        <PhoneNumber>123-456-435</PhoneNumber>
+    </Reporter>
+    <Reporter>
+        <Name>Tim</Name>
+        <LastName>Alex</LastName>
+        <PhoneNumber>333-333-321</PhoneNumber>
+    </Reporter>
+    <Claimant>
+        <Name>Piotr</Name>
+        <LastName>Siemasz</LastName>
+        <PhoneNumber>555-333-222</PhoneNumber>
+    </Claimant>
+</Claim>

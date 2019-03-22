@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Claim xmlns="http://www.pirog.com/claims" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.pirog.com/claims Claim.xsd" id="5555">
+    <LossInfo>
+        <LossDate>2005-01-13T01:02:00</LossDate>
+        <Incident>Window damage</Incident>
+        <Severity>Not serious</Severity>
+    </LossInfo>
+    <PolicyNumber>12345-XS</PolicyNumber>
+    <Claimant>
+        <Name>Jacek</Name>
+        <LastName>Piłka</LastName>
+        <PhoneNumber>111-111-222</PhoneNumber>
+    </Claimant>
+</Claim>
